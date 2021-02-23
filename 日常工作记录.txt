@@ -8,6 +8,6 @@
 
 2021-02-23：
 1、五舟HPC新方案确认修改--方案升级理由编写，新方案确认
-2、文献阅读---Whole-genome sequencing of 508 patients identifies key molecular features associated with poor prognosis in esophageal squamous cell carcinoma
+2、文献阅读---接续阅读Whole-genome sequencing of 508 patients identifies key molecular features associated with poor prognosis in esophageal squamous cell carcinoma
 3、新报销系统培训
 4、TCGA食管癌数据使用学习
