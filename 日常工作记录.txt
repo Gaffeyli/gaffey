@@ -5,3 +5,9 @@
 （TensorFlow 支持市面所有主流操作系统，可用于图像，文本，音频，以及结构化数据处理和模型的分布式训练
 4、文献阅读---Whole-genome sequencing of 508 patients identifies key molecular features associated with poor prognosis in esophageal squamous cell carcinoma
 5、五舟HPC方案洽谈---CPU升级为计算节点全系8268，胖节点内存设置为2T，售后方案确认，存储系统确认，增加登录节点，增加GPU节点接入方案，增加软件服务方案，确定使用slurm资源管理，增加UPS方案
+
+2021-02-23：
+1、五舟HPC新方案确认修改--方案升级理由编写，新方案确认
+2、文献阅读---Whole-genome sequencing of 508 patients identifies key molecular features associated with poor prognosis in esophageal squamous cell carcinoma
+3、新报销系统培训
+4、TCGA食管癌数据使用学习
