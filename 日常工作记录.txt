@@ -11,3 +11,8 @@
 2、文献阅读---接续阅读Whole-genome sequencing of 508 patients identifies key molecular features associated with poor prognosis in esophageal squamous cell carcinoma
 3、新报销系统培训
 4、TCGA食管癌数据使用学习
+
+2021-02-24：
+1、华大基因WES数据处理，已开始进行合并预计周五之前合并完成，后可做VQSR
+2、TCGA食管癌数据使用学习
+3、WGS数据--微生物分析，正在进行质控
