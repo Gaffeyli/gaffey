@@ -29,3 +29,23 @@
 2、WGS补充数据分析
 3、五舟方案整理改进
 4、MIC代表大会
+
+2021-03-25~2021-03-31
+1、WGS数据分析,驱动基因预测软件学习
+https://upload-images.jianshu.io/upload_images/15500891-f1f0d5e0df3ed180.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp
+2、WGS数据分析，变异注释annovar
+3、WGS数据分析,驱动基因注释（已成功运行）
+4、妇科数据对接（已发送至妇科刘主任OA）
+5、产科科研数据存储系统对接（已与信息科对接，确认技术可行性，但数据不建议以保存的名义提交OA申请，医院制度不允许）
+6、RNAseq数据分析，感兴趣通路基因获取
+
+GO = c("cytokine activity","chemokine activity","G protein-coupled receptor activity","glycosaminoglycan binding","cytokine receptor binding")
+#兴趣通路
+ 
+ID=godb[godb$TERM %in% GO,"GOID"]
+result = data.frame()
+for(i in c(1:length(ID))) {
+  test = AnnotationDbi::select(org.Hs.eg.db, keys=ID[i], columns=c("GO","SYMBOL","ENSEMBL"), keytype="GO")
+  test$name = GO[i]
+  result = rbind(result,merge(test,gene,by="ENSEMBL"))
+}
